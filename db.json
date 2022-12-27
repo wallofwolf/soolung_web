@@ -1,16 +1,436 @@
 {
-  "posts":[
+  "board": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "id": 1,
+      "title": "소주 마실 때 최고의 안주는 분위기임",
+      "body": "자성당은 서울에 지점이 6개 있는데 안주 파는 곳은 이태원 밖에 없음. 술 마시러 자성당 가려거든 이태원으로 가거라.",
+      "username": "우원재",
+      "password": "1234",
+      "createdDate": 1671562524197,
+      "img": "https://mblogthumb-phinf.pstatic.net/MjAyMDA4MTJfMTUg/MDAxNTk3MjE3MDkzODQy.-3d0wY5fJGrmiNzLj5uy_8RPU3bmTm-8TLnvOi2fSqAg.wgTHmOvl6F0Dljzo_I1LMryJFmLodJKV6D2mevgtzFkg.JPEG.wjdtndls25/output_4072276073.jpg?type=w800",
+      "comments": 2
+    },
+    {
+      "id": 2,
+      "title": "포장마차에서 혼술 도전",
+      "body": "이번엔 길거리 포장마차를 찾았다. 포장마차라 함은 드라마나 영화 속 주인공들의 단골 혼술장소가 아닌가. 실연당했을 때 우동 한 그릇에 홀로 술잔을 기울이며 ‘아줌마!! 여기 소주 한 병 더!!!‘를 외치는 바로 그곳. 무슨 사연이 있는 건 아니었지만, 그 기분이라도 느껴보겠다며 한 자리 꿰차고 앉았다. 포장마차 주인아주머니는 혼자 온 여자가 낯설지 않은 듯 능숙하게 1인용 테이블 세팅을 해주셨다. 대부분 손님 역시 주변 의식 따위 하지 않고 자유롭게 술을 마시는 분위기라 오히려 마음이 편해졌다. 혼자 빈 잔에 소주를 따르는 데 왠지 사연 많은 여자가 된 것 같은 기분도 들었다. 아, 사연이라도 좀 생겼으면 좋겠다.",
+      "username": "gooood",
+      "password": "1234",
+      "createdDate": 1671662524197,
+      "img": "https://cdn.univ20.com/wp-content/uploads/2016/10/92aa0d551e8d6d55fed8126e3ae8a635.jpg",
+      "comments": 0
+    },
+    {
+      "id": 3,
+      "title": "후암동에 깔끔한 해물 술집 추천",
+      "body": "여기만 가면 소주 각 3병 가능함. 안주 전부 해물인데 다 깔끔하고 가게도 깔끔함. 미닫이 문이라 뭔가 그 겨울에 일본 가서 술 먹는 그런 감성 좀 있음.",
+      "username": "봉미선",
+      "password": "1234",
+      "createdDate": 1671762524197,
+      "img": "https://lh3.googleusercontent.com/p/AF1QipMIhBTWN6rtNWOvkEVYV8xGc7sOLzmlQNkxo1AU=s680-w680-h510",
+      "comments": 2
+    },
+    {
+      "id": 4,
+      "title": "요즘 소주가 싫어졌다 🤮",
+      "body": "예전엔 소주 마시면 깔루아 맛이 나고 숙취도 없었는데 어느 순간부터 소주 알콜 냄새가 좀 역해졌음. 요즘엔 맛있는 술이 좋아... 칵테일 러버...🖤",
+      "username": "김첨지",
+      "password": "1234",
+      "createdDate": 1671762523197,
+      "img": "https://pbs.twimg.com/media/BcvSlbfCcAAsgAY.jpg",
+      "comments": 0
+    },
+    {
+      "id": 5,
+      "title": "이런 날씨엔 이자카야",
+      "body": "퇴근길엔 무라카미 하루키가 즐겨 먹는 레시피로 하이볼 한 잔! (외로운 거 아님)",
+      "username": "루키루키하루키",
+      "password": "1234",
+      "createdDate": 1671762504197,
+      "img": "https://cdn.univ20.com/wp-content/uploads/2016/10/0f3cda1aad9303670f3fc1c1e6452f8b.jpg",
+      "comments": 2
+    },
+    {
+      "id": 6,
+      "title": "삼겹살과 소주를 처음 조합한 사람, 그는 천잰가?",
+      "body": "사장님 여기 소주 한 병 더요! 🍶 회식 진짜 개오기 싫었는데 막상 와서 소주에 삼겹살을 곁들이니 여기가 파라다이스. 남의 돈으로 먹는 술이 제일 맛있다. 내일 숙취 쩔 거 같은데 그럼 그냥 연차 씀 ㅎㅎ",
+      "username": "연차홀릭",
+      "password": "1234",
+      "createdDate": 1671779338835,
+      "img": "https://cdn.univ20.com/wp-content/uploads/2016/10/1227f83d0199c3d4f8154ed7f09987f6.jpg",
+      "comments": 0
+    },
+    {
+      "id": 7,
+      "title": "서촌에 나만 알고 싶은 바",
+      "body": "여기 칵테일 너무 잘 만든다. 술 안 좋아하는 친구 데려가도 분위기랑 맛에 취해버림. 조만간 또 가고 싶은데 혹시 같이 갈 사람? 있니 없니?",
+      "username": "살랑살랑",
+      "password": "1234",
+      "createdDate": 1671779338835,
+      "img": "https://mblogthumb-phinf.pstatic.net/MjAyMDAzMDZfMjcg/MDAxNTgzNDYxNjQwMzg5.neNtjqTm7rR9_0Lg3Q3TIpzpGPZoiJinxEAs7pPS6-0g.6IbmjxwPvI_Zv--cI_3DvaNQ-QY_oYOy-SdKTw1f-54g.JPEG.olivia1113/%EC%B0%B8_%EB%B0%94_(36).JPG?type=w800",
+      "comments": 0
     }
   ],
-  "comments" : [
+  "boardComments": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "username": "술술술",
+      "password": "1234",
+      "boardId": 1,
+      "body": "맛있겠네요~~",
+      "createdDate": 1671762771578
+    },
+    {
+      "username": "테스트",
+      "password": "1234",
+      "boardId": 1,
+      "body": "생맥주 크",
+      "createdDate": 1671762771178
+    }
+  ],
+  "article": [
+    {
+      "id": 5,
+      "name": "참이슬",
+      "title": "대관령 암반수 참이슬",
+      "desc": "대한민국 소주시장에 새 바람을 일으킨 소주입니다.소주의 80%를 차지하고 있는 물은 제품의 맛과 품질을 좌우하는 중요한 요소입니다.대관령 기슭 암반수로 만들어 술맛이 부드럽고 목 넘김이 좋은 특징을 가지고 있습니다.",
+      "star": 3.8,
+      "img": "https://blog.kakaocdn.net/dn/c4OypN/btqFkTHml7B/0LQpoF3msnDqVkiuofUOg0/img.png",
+      "categories": "soju"
+    },
+    {
+      "id": 6,
+      "name": "청하",
+      "title": "깔끔한 청하 13도",
+      "desc": "깔끔한 맛과 향을 자랑하는 청하는 1986년 출시 이래 차게 마시는 청주의 대명사로 오랫동안 사랑받고 있습니다. 세 번 깎은 쌀의 속살을 12~15도 사이의 저온에서 한 달간 서서히 발효시켜, 잡미, 잡향이 없으며, 냉각 여과장치를 이용해 쓴맛과 알코올 냄새를 제거해 더욱 부드러운 술입니다. 청하에 포함되어 있는 아미노산류는 요리의 풍미를 더 해주고 뒷맛을 깔끔하게 하여 음식을 참 맛을 살립니다.",
+      "star": "4.0",
+      "img": "https://hmart.co.uk/shop/2721-home_default/-300ml-13.jpg",
+      "categories": "soju"
+    },
+    {
+      "id": 7,
+      "name": "대장부",
+      "title": "증류식 소주 대장부",
+      "desc": "2016년 5월에 출시한 100% 우리 쌀을 저온숙성시킨 정통 증류식 소주",
+      "star": "5.0",
+      "img": "https://newsimg.sedaily.com/2021/11/18/22U2DNGBCK_3.jpg",
+      "categories": "soju"
+    },
+    {
+      "id": 8,
+      "name": "미상",
+      "title": "싱그러운 향이 매력적인 미상",
+      "desc": "굉장히 깔끔하고 투명한 인상을 주는 디자인의 '미상' 은 제주도의 감귤을 사용한 감귤 증류주입니다. 사과향, 귤 향 등이 풍부하여 바닐라와 같은 달큼한 향도 올라옵니다. 25도임에도 희석식 과일소주와 비교되지 않을 만큼 풍부하고 깊은 맛이 나며 마치 입에 실크를 감싼 듯 부드러운 목 넘김을 선사합니다.",
+      "star": "3.0",
+      "img": "https://img.danawa.com/prod_img/500000/288/109/img/16109288_1.jpg?shrink=500:500&_v=20220105140227",
+      "categories": "soju"
+    },
+    {
+      "id": 9,
+      "name": "토끼소주블랙",
+      "title": "전통소주 토끼소주",
+      "desc": "토끼소주는 100% 찹살이 선사하는 향기와 달큰함이 부드럽게 목을타고 넘어갑니다. 목넘김 후 올라오는 고도주 특유의 향과 느낌은 첨가물도 없이 깔끔한 재료 덕분에 더욱 깨끗하게 다가옵니다. 개봉하여 마시는 철 술도 좋지만 실온보관 후 마시는 두번째 술은 더욱 부드럽게 토끼소주를 즐길 수 있는 방법입니다.",
+      "star": "5.0",
+      "img": "https://img.danawa.com/prod_img/500000/583/590/img/17590583_1.jpg?shrink=330:330&_v=20220803131532",
+      "categories": "soju"
+    },
+    {
+      "id": 10,
+      "name": "명인 안동소주 호리병",
+      "title": "박재서 명인 안동소주 호리병",
+      "desc": "500년 정통의 깊은 맛과 향을 그대로 이어 온 안동소주 명가의 25대손 박재서 명인이 100%순수 쌀로 만든 정통 증류식 소주 명인 안동소주입니다.",
+      "star": 4,
+      "img": "https://modo-phinf.pstatic.net/20150921_2/1442793922246XLFpU_JPEG/mosa7II32V.jpeg?type=f296_390",
+      "categories": "soju"
+    },
+    {
+      "id": 11,
+      "name": "고소리술",
+      "title": "제주샘 소주 고소리술",
+      "desc": "맑은 청주인 오메기 술을 증류하여 만든 고소리 술 제주지역에서 자라는 청정 농산물을 엄격하게 선별하고 화산 천연 암반수를 이용해 빚은 술을 2번의 여과를 통해 맑게 만들고 증류하여 최소 1년 이상 숙성해 고소리술 탄생!",
+      "star": 4,
+      "img": "https://img.danawa.com/prod_img/500000/827/766/img/11766827_1.jpg?shrink=330:330&_v=20200708161347",
+      "categories": "soju"
+    },
+    {
+      "id": 13,
+      "name": "로아",
+      "title": "배혜정도가 로아 화이트",
+      "desc": "배혜정도가가 위치해 있는 경기도 화성과 인접 지역의 우수한 농산물을 사용하여 빚은 전통주로 그 맛과 향이 좋습니다.",
+      "star": 0,
+      "img": "http://img.danawa.com/prod_img/500000/374/352/img/5352374_1.jpg?_v=20180830121647",
+      "categories": "soju"
+    },
+    {
+      "id": 14,
+      "name": "감홍로",
+      "title": "조선 3대 명주 감홍로",
+      "desc": "7가지 약재와 함께 귀하게 조선 명주 고두밥과 좁쌀, 물과 누룩을 넣고 반죽한 뒤 15일 동안 발효하여 2번 증류합니다. 용안육, 계피, 진피, 정향, 생강, 감초, 지초 등을 넣고 1년간 숙성하여 완성됩니다.",
+      "star": 0,
+      "img": "https://img.danawa.com/prod_img/500000/233/369/img/5369233_1.jpg?shrink=330:330&_v=20180830122524",
+      "categories": "soju"
+    },
+    {
+      "id": 16,
+      "name": "스트롱 보우 다크후르츠",
+      "title": "스트롱 보우 다크후르츠",
+      "desc": "기존에 먹었던 애플사이다와는 조금 다른맛 브리티쉬 스타일이라 그런건지 드라이라 그런건지 모르지만 달달한 맛은 덜하고 뭔가 내가 그날 원하던 그런 음료였다 사이다 계열이라기 보다는 오히려 스파클링 와인에 가까운 맛이었다 실제로 사과맛인데 약간 포도맛같은 느낌도 들었고 단맛적고 쓴 알콜향도 강하지않고 탄산감에 정말 가볍게 한캔씩 먹기 좋은것같다",
+      "star": "2.5",
+      "img": "http://assabeer.com/web/product/big/202106/5ba0ce14f25ade4b3c2a9b34eb8ffa00.png",
+      "categories": "beer"
+    },
+    {
+      "id": 17,
+      "name": "사무엘 아담스",
+      "title": "사무엘 아담스",
+      "desc": "사무엘 아담스는 독특한 빛깔과 맛으로 유독히 사람들의 기억에 남는 맥주입니다. 맥주하면 연상되는 황금빛 빛깔이 아닌 호박색(앰버,amber)을 띄고 있고 맛은 취향에 따라 다르게 느껴지겠지만.. 한국에서 접할 수 있는 미국의 라거들은 가볍고, 부담스럽지 않은 맛이 특징이라고 말할 수 있는데 반해, 사무엘 아담스는 모든 미국의 라거가 누구에게나 만만한 맛을 선사하는게 아니라는 것을 일깨워 주듯이 달면서 쓴맛과 라거맥주가 아닌, 에일맥주에서 느낄 수 있는 비슷한 느낌의 무게감과 깊은맛을 느낄 수 있습니다.",
+      "star": "3",
+      "img": "http://assabeer.com/web/product/big/20200408/7c4aaf2f258d2e641bf5a5e08b569cc9.jpg",
+      "categories": "beer"
+    },
+    {
+      "id": 18,
+      "name": "코젤 다크",
+      "title": "코젤 다크",
+      "desc": "코젤 다크를 전용잔에 쭈욱 따라봤습니다. 먼저 물을 살짝 묻혀서 입구 주위에 시나몬가루를 묻히고 맥주를 따랐는데, 맥주가 딱 한 모금정도 남더라구요. 사실 제가 너무 거품을 많이 들어버려서 그런 것 같습니다. 정석대로 따르면 한 잔이 다 들어갈 것 같아요. 맛은 지금껏 마셔봤던 흑맥주 중에서는 가장 부드럽고 고급진 맛이였습니다. 흑맥주 특유의 느끼함이나 비릿한 맛도 없고 시나몬가루를 묻혀서 같이 마셔서그런지 시나몬 향이 은근하게 나면서 굉장히 맛이 부드럽고 목넘김이 좋았습니다.",
+      "star": "3.5",
+      "img": "http://assabeer.com/web/product/big/20200630/da4987fa03d40846a3091f8f3a1399ef.jpg",
+      "categories": "beer"
+    },
+    {
+      "id": 19,
+      "name": "에스트렐라 담",
+      "title": "에스트렐라 담",
+      "desc": "스페인을 대표하는 맥주 회사 담이 만든 정통 라거입니다. 향은 조금 거친 느낌으로 올라와줍니다. 씁쓸하면서 약간의 달콤함이 느껴지고 고소한 향이 느껴집니다. 입안에 머금으면 좋은 청량감과 고소한 느낌 그리고 씁쓸한 맛이 느껴집니다. 그리 진한 느낌은 아니에요! 청량감이 좋게 넘어가면서 드라이하면서도 고소한 향과 맛이 느껴집니다. 넘어가고 나서 깔끔하며 여운은 역시 짧은 편이네요 고소한 맛이 입안에 잠깐 남아있어주지만 조금씩 사라집니다.",
+      "star": "3",
+      "img": "http://assabeer.com/web/product/big/20200408/bfe39f0c71577901ce287863002ca1ee.jpg",
+      "categories": "beer"
+    },
+    {
+      "id": 20,
+      "name": "월터스 블랙비어",
+      "title": "월터스 블랙비어",
+      "desc": "슈바르츠 비어의 큰 특징인 탄맛을 직빵으로 맛보고 싶다면 이 맥주를 마셔볼 것을 추천한다. 탄맛 외에는 아무런 맛이 나타나지 않기 때문에 온전히 탄맛을 만끽할 수 있다. 다만, 아쉬운 점은 위에서 잠깐 언급했듯 이 탄맛에 공간감이 부족하다는 것. 맥아를 태워서 복합적인 맛을 냈다는 느낌보다는 그냥 물을 태워서 탄맛이 나는 것 같은... 얕은 공간감은 다소 아쉬움이 남았다.",
+      "star": "3",
+      "img": "http://assabeer.com/web/product/big/b_223.jpg",
+      "categories": "beer"
+    },
+    {
+      "id": 21,
+      "name": "샤또 라피트 로칠드 2017",
+      "title": "샤또 라피트 로칠드 2017",
+      "desc": "깊고 진한 색을 딴다. 코에서는 아직 숙성 중이지만 시간이 지날수록 엄청난 향의 잠재력을 보여준다. 굉장히 신선하고 섬세한 삼나무와 민트향이 느껴지며 입 안에서는 농축되고 발랄 한 느낌인 동시에 웅장한 힘을 보여준다. 아직 영 빈티지이지만 여러 캐릭터들이 조화로워 누군가는 피네스(Finesse)와 집중도 높은 훌륭한 라피트의 퀄리티를 충분히 즐길 수 있는 와인이다.",
+      "star": "4.5",
+      "img": "https://wineall.co.kr/web/product/big/202207/62d60a567f01940e7d05c903abd6143c.png",
+      "categories": "wine"
+    },
+    {
+      "id": 22,
+      "name": "오퍼스 원 2014",
+      "title": "오퍼스 원 2014",
+      "desc": "부정할 수 없는 미국의 명품 와인. 향기로운 꽃향기와 집 앞 정원에서 느낄 수 있는 신선한 허브 뉘앙스 그리고 숲 속을 걷는 듯한 자연의 느낌이 레드 체리와 블랙 베리, 블렉 커런트 등의 강한 과실향과 잘 어우러진다. 견고 한 타닌은 벨벳 같은 텍스쳐를 선사하며 전체적으로 몇 단계 더 높은 복합성과 구조감은 모카 뉘앙스가 더해진 길고 진한 피니쉬에 그대로 이어진다.",
+      "star": "4",
+      "img": "https://wineall.co.kr/web/product/big/202203/c92df18455e2316a25204dee04d6b098.png",
+      "categories": "wine"
+    },
+    {
+      "id": 23,
+      "name": "실버 오크 나파 밸리 까베르네 소비뇽",
+      "title": "실버 오크 나파 밸리 까베르네 소비뇽",
+      "desc": "짙은 루비빛을 띠고 입안 가득 느껴지는 강한 무게감이 강점인 와인이고 커피, 코코아향과 함 께 부드러운 뒷맛이 지배적이다. 블루베리향, 향신료향, 초콜릿 향을 느낄 수 있는 와인이다. 24개월간 American Oak 에서 숙성했다.",
+      "star": "3.5",
+      "img": "https://wineall.co.kr/web/product/big/202211/e26b1f1a8361d7a961d2ead398adb303.png",
+      "categories": "wine"
+    },
+    {
+      "id": 24,
+      "name": "몬테스 알파 엠",
+      "title": "몬테스 알파 엠",
+      "desc": "칠레의 특급 와인 중에서도 선두에 서 있는 와인으로 보르도 블랜드(Bordeaux Blend)방식 으로 만들어져 맛의 깊이와 느낌이 고상하고 귀족적이다. 아주 진한 루비 색에 붉은 색 과일 의 향과 후추와 같은 스파이시함(Spiciness)이 잘 조화를 이루고 있으며 숙성 보존할 수 있 는 기간도 보장되는 와인이다. 와인 이름의 M은 공동 창업자인 더글라스 머레이(Douglas Murray)의 성의 이니셜을 딴 것으로 칠레 와인의 세계 진출에 혁혁한 공을 세운 그의 업적을 기리기 위함이다.",
+      "star": "4",
+      "img": "https://wineall.co.kr/web/product/big/202112/2ca08fe8c5de23289674df915aa6dd43.jpg",
+      "categories": "wine"
+    },
+    {
+      "id": 25,
+      "name": "비냐 빅 라 피우 벨",
+      "title": "비냐 빅 라 피우 벨",
+      "desc": "열매, 향신료, 약간의 오크향 등 다양한 향이 훌륭한 균형감을 이루고 있는 와인으로 복합미 또한 잘 갖추고 있는 와인입니다. 블루 베리 풍미가 특히 뛰어나고 둥글고 우아한 타닌으로 긴 피니시를 남기는 와인으로 전체적으로 과하지 않으며 우아하고 조화로운 와인입니다. ",
+      "star": "3.5",
+      "img": "https://wineall.co.kr/web/product/big/202201/1482bcb9c31737e849141617d9ce36ab.png",
+      "categories": "wine"
+    },
+    {
+      "id": 26,
+      "name": "아드벡 코리브라칸",
+      "title": "아드벡 코브리라칸",
+      "desc": "피트함과 석탄향섞인 땅콩향(너티함), 해초류 뉘양스 조금 익숙해지니 바닐라향도 조금 느껴진다. 후추를 올려놓은 느낌! 혀와 입천장에 얼얼함이 남을정도 살짝 바닐라 맛과 다크초콜릿맛이 난다. 꿀향이 느껴지며 피트함과 스파이시함이 남는다. 맛있는데 생각보다 달다. 피트함과 함께 스파이시함과 단맛이 매력적으로 다가오는 위스키",
+      "star": "3.5",
+      "img": "https://hometend.co.kr/_next/image?url=http%3A%2F%2Fapi.hometend.co.kr%2Fmedia%2Fdrink%2Fuploaded%2F244-2021-08-04_231117.332000.png&w=256&q=75",
+      "categories": "whisky"
+    },
+    {
+      "id": 27,
+      "name": "아벨라워 아부나흐",
+      "title": "아벨라워 아부나흐",
+      "desc": "아벨라워는 미식가의 나라 프랑스에서 가장 사랑받는 싱글 몰트 위스키 브랜드다. 알코올을 희석하지 않는 캐스크 스트랭스 제품으로 원액 그대로의 깊고 강렬한 맛이 특징이다.",
+      "star": "4",
+      "img": "https://cdn.imweb.me/upload/S201805075af0125698fa0/a7cfd72f65120.png",
+      "categories": "whisky"
+    },
+    {
+      "id": 28,
+      "name": "맥캘란 12년 셰리오크",
+      "title": "맥캘란 12년 셰리오크",
+      "desc": "'맥캘란 12년 셰리 오크'는 세리 맛을 가득 담기 위해 스 페인 헤레스(Jerez) 셰리 오크통만을 사용했습니다. 일 반적인 세리 위스키는 추가 숙성인 피니쉬 과정만을 거 치지만,'맥캘란 12년 세리 오크'는 12년을 모두 헤레스 셰리 캐스크에서 숙성합니다. 12년 동안 단일 캐스크에 서 숙성했기 때문에 입 안 가득 퍼지는 말린 과일 향과 셰리 향, 그리고 달콤한 바닐라 맛까지 완벽하게 어우러 집니다. 세리 위스키의 기준, '맥캘란 12년 세리 오크'를 한정 수량 만나보세요.",
+      "star": "3.5",
+      "img": "https://hometend.co.kr/_next/image?url=http%3A%2F%2Fapi.hometend.co.kr%2Fmedia%2Fdrink%2Fuploaded%2F115-2021-08-04_231117.332000.png&w=384&q=75",
+      "categories": "whisky"
+    },
+    {
+      "id": 29,
+      "name": "휘슬피그 10년 라이",
+      "title": "휘슬피그 10년 라이",
+      "desc": "‘휘슬피그 10년 라이’는 호밀 97%로 만들어진 프리미엄 라이 위스키입니다. (호밀 100%라고 알고 계신 분도 있으실 텐데요. 휘슬피그 라이 15년이 호밀 100%로 만들어졌답니다.) 사실 호밀은 위스키를 만들기 어려운 곡물입니다. 풀처럼 끈적해서 증류기를 막히게 하기 때문이죠. 그래서 최종적으로 어떤 위스키가 나오는지 예측하기 어려운데요. 휘슬피그는 그 어려운 것을 해냈습니다. 달콤한 바닐라 풍미에 가려진 호밀 특유의 거칠고 스파이시한 타격감, 향과 맛이 다른 반전 매력을 선보이는 라이 위스키랍니다. 그 맛이 궁금하다면 데일리샷에서 한정수량 만나보세요. 와인 전문 매거진 에서 96점을 받으며 역사상 가장 높은 평가를 받은 라이 위스키 중 하나로 평가받았습니다.",
+      "star": "4",
+      "img": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/9c020cb9-1abb-4cdc-b934-e4273d82fdee.webp",
+      "categories": "whisky"
+    },
+    {
+      "id": 30,
+      "name": "잭 다니엘스",
+      "title": "잭 다니엘스",
+      "desc": "'잭 다니엘스'의 향을 맡아보면 달콤한 바닐라와 캐러멜의 완벽한 조화가 느껴집니다. 그리고 약간의 오크통 뉘앙스도 찾아낼 수 있습니다. 맛을 보면, 향을 맡았을 때 기대할 수 있는 그대로의 맛이 납니다. 너무 달거나 너무 오키(oaky)하지 않은 그 사이 적당한 균형감이 나타납니다. 여기에 약간의 산미도 느껴집니다. 이렇게 균형 잡힌 맛 덕분에 '잭 다니엘스'는 위스키 사워 등 다양한 위스키 베이스 칵테일에 활용하기 좋은 위스키랍니다.",
+      "star": "3.5",
+      "img": "https://d1e2y5wc27crnp.cloudfront.net/media/smartorder_reservation/product/thumbnail/426cd02d-15eb-45de-a261-d72e958fa3b6.webp",
+      "categories": "whisky"
+    }
+  ],
+  "articleComment": [
+    {
+      "username": "처음처럼",
+      "password": "123",
+      "comment": "맛있음의 척도",
+      "star": "4",
+      "id": "5b5df678-1164-4dc7-ab88-52d6fc302000",
+      "createdDate": "2022.12.27 12:49",
+      "alcoholId": 5
+    },
+    {
+      "username": "처음처럼",
+      "password": "123",
+      "comment": "깔끔하다",
+      "star": "3",
+      "id": "36b7a924-9381-4983-a6b9-de1785866979",
+      "createdDate": "2022.12.27 12:49",
+      "alcoholId": 5
+    },
+    {
+      "username": "청하",
+      "password": "123",
+      "comment": "알코올 향 많이 나요",
+      "star": "4",
+      "id": "bc4475dc-b158-4f05-9517-f4724e8ed256",
+      "createdDate": "2022.12.27 12:50",
+      "alcoholId": 6
+    },
+    {
+      "username": "청하",
+      "password": "123",
+      "comment": "소주보다 좀 더 비쌈..",
+      "star": "4",
+      "id": "8ae83214-e53a-4b76-bb61-1a6bb4f9dc6f",
+      "createdDate": "2022.12.27 12:50",
+      "alcoholId": 6
+    },
+    {
+      "username": "대장부",
+      "password": "123",
+      "comment": "비싸보이는데 처음 들어봐요",
+      "star": "5",
+      "id": "2fe33dc2-3419-4fef-9a41-6ad9533735c6",
+      "createdDate": "2022.12.27 12:51",
+      "alcoholId": 7
+    },
+    {
+      "username": "대장부",
+      "password": "123",
+      "comment": "이게 뭐지..?",
+      "star": "3",
+      "id": "02f69ec1-b675-4e0d-8c28-5f5b94339c54",
+      "createdDate": "2022.12.27 12:51",
+      "alcoholId": 7
+    },
+    {
+      "username": "미상",
+      "password": "123",
+      "comment": "디자인이 이쁘다",
+      "star": "3",
+      "id": "4e28fa57-1b98-40d4-b450-9a7044d27408",
+      "createdDate": "2022.12.27 12:51",
+      "alcoholId": 8
+    },
+    {
+      "username": "미상",
+      "password": "123",
+      "comment": "과일향이 많이나요",
+      "star": "4",
+      "id": "3dc9f22b-8e72-44f1-b16b-e54286751e5b",
+      "createdDate": "2022.12.27 12:51",
+      "alcoholId": 8
+    },
+    {
+      "username": "토끼소주블랙",
+      "password": "123",
+      "comment": "이게 증류소주 인기순위에 있네요?",
+      "star": "5",
+      "id": "1d48674d-2210-4b36-b79d-de2cf4737906",
+      "createdDate": "2022.12.27 12:52",
+      "alcoholId": 9
+    },
+    {
+      "username": "토끼소주블랙",
+      "password": "123",
+      "comment": "솔직히 맛있는지 잘 모르겠어요",
+      "star": "3",
+      "id": "485488c6-02ca-4066-b232-a1bec2baa0bc",
+      "createdDate": "2022.12.27 12:52",
+      "alcoholId": 9
+    },
+    {
+      "username": "호리병",
+      "password": "123",
+      "comment": "호리병 모양의 디자인이 특이해요",
+      "star": "4",
+      "id": "9ff8a2a2-ce57-429f-a5c2-7cc829debee7",
+      "createdDate": "2022.12.27 12:55",
+      "alcoholId": 10
+    },
+    {
+      "username": "호리병",
+      "password": "123",
+      "comment": "이게 맛있을까요?",
+      "star": "2",
+      "id": "cfb08412-027e-4189-9a99-dd84a6b31643",
+      "createdDate": "2022.12.27 12:56",
+      "alcoholId": 10
+    },
+    {
+      "username": "고소리술",
+      "password": "123",
+      "comment": "와 이런 술도 있구나..",
+      "star": "4",
+      "id": "8e8ea7dd-b2c1-475e-8611-d1487cd7249e",
+      "createdDate": "2022.12.27 12:58",
+      "alcoholId": 11
+    },
+    {
+      "username": "고소리술",
+      "password": "123",
+      "comment": "맛있어보여요",
+      "star": "2",
+      "id": "d463478c-bbe6-4d3a-a7f3-f33b0d143302",
+      "createdDate": "2022.12.27 12:58",
+      "alcoholId": 11
     }
   ]
 }
